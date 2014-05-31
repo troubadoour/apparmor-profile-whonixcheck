@@ -15,7 +15,7 @@ Standards-Version: 3.9.4
 Package: apparmor-profile-whonixcheck
 Architecture: all
 Depends: ${misc:Depends}, apparmor
-Description: AppArmor profile for whonixcheck.
+Description: AppArmor profile for whonixcheck
  An AppArmor profile to confine whonixcheck. This profile is
  developed by the Whonix team. whonixcheck is developed by
  Patrick Schleizer <adrelanos@riseup.net>.
