@@ -1,4 +1,4 @@
-apparmor-profile-whonixcheck (0.1-1) UNRELEASED; urgency=low
+apparmor-profile-whonixcheck (3:0.1-1) UNRELEASED; urgency=low
 
   * Initial release.
 
