@@ -212,4 +212,6 @@
 
 	/var/log/sdwdate.log rw,
 	/var/log/timesanitycheck.log rw,
+
+	/var/lib/anon-dist/build_version r,
 }
