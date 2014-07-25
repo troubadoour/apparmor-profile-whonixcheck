@@ -190,7 +190,7 @@
 	/usr/lib/msgcollector/* rix,
 	/usr/lib/sudo/sudoers.so mr,
 	/usr/lib/whonixcheck/** rix,
-	/usr/lib/python2.7/** mr,
+	/usr/lib/python2.7/** mrw,
 	/usr/lib/torsocks/* mr,
 	/usr/lib/virt-what/virt-what-cpuid-helper rix,
 	/usr/lib/apt/methods/* rix,
