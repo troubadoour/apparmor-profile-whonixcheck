@@ -110,6 +110,8 @@
 	@{HOME}/tor-browser_en-US/Docs/sources/versions r,
 	@{HOME}/.whonix/ r,
 	@{HOME}/.whonix/* rwcux,
+	@{HOME}/.msgcollector/ r, 
+	@{HOME}/.msgcollector/* rwk, 
 
 	/lib/i386-linux-gnu/** mr,
 	/lib/security/* mr,
@@ -122,12 +124,13 @@
 	@{PROC}/sys/kernel/pid_max r,
 	@{PROC}/uptime r,
 	@{PROC}/tty/drivers r,
+	@{PROC}/[0-9]*/task/ r,
 
 	/run/whonixcheck/* mrwcx,
 	/run/utmp rk,
 	/run/msgcollector r,
-	/run/msgcollector/ r,
-	/run/msgcollector/* rw,
+	/run/msgcollector/user/ r,
+	/run/msgcollector/user/* rwk,
 	/run/sdwdate r,
 	/run/sdwdate/ rw,
 	/run/sdwdate/* rw,
@@ -178,11 +181,13 @@
 	/usr/bin/awk rix,
 	/usr/bin/whoami rix,
 	/usr/bin/tr rix,
+	/usr/bin/pstree rix,
 
 	/usr/sbin/service rix,
 	/usr/sbin/virt-what rix,
 	/usr/sbin/dmidecode rix,
 
+	/usr/lib/msgcollector/* rix,
 	/usr/lib/sudo/sudoers.so mr,
 	/usr/lib/whonixcheck/** rix,
 	/usr/lib/python2.7/** mr,
@@ -190,6 +195,8 @@
 	/usr/lib/virt-what/virt-what-cpuid-helper rix,
 	/usr/lib/apt/methods/* rix,
 	/usr/lib/curl-scripts/curl_exit_codes rix,
+	/usr/lib/anon-shared-helper-scripts/* rix,
+	/usr/lib/apt-get-update rix,
 
 	/usr/local/lib/python2.7/dist-packages/ r,
 
@@ -197,6 +204,7 @@
 	/usr/share/ca-certificates/** r,
 	/usr/share/misc/pci.ids r,
 	/usr/share/pyshared/** r,
+	/usr/share/open-link-confirmation/share/config/kdeglobals r,
 
 	/var/cache/apt/ r,
 	/var/cache/apt/* rw,
@@ -205,7 +213,8 @@
 	/var/lib/apt/lists/ r,
 	/var/lib/apt/lists/** rwk,
 	/var/lib/apt/extended_states r,
-	/var/lib/whonix/** rw,
+	/var/lib/whonixcheck/** rw,
+	/var/lib/whonix/whonixblog/* rw,
 
 	/var/log/sdwdate.log rw,
 	/var/log/timesanitycheck.log rw,
