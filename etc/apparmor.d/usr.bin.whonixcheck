@@ -163,6 +163,7 @@
 	/usr/bin/dirname rix,
 	/usr/bin/apt-get.anondist-orig rix,
 	/usr/bin/uwt rix,
+	/usr/lib/uwtwrapper rix,
 	/usr/bin/curl.anondist-orig rix,
 	/usr/bin/torsocks rix,
 	/usr/bin/python2.7 rix,
