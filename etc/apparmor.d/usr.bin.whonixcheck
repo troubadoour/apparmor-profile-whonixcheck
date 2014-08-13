@@ -1,4 +1,4 @@
-# Last modified: Sun Jul 27 19:31:32 UTC 2014
+# Last modified: Mon Mar 24 22:07:48 UTC 2014
 #include <tunables/global>
 
 /usr/bin/whonixcheck {
@@ -110,8 +110,8 @@
 	@{HOME}/tor-browser_en-US/Docs/sources/versions r,
 	@{HOME}/.whonix/ r,
 	@{HOME}/.whonix/* rwcux,
-	@{HOME}/.msgcollector/ r, 
-	@{HOME}/.msgcollector/* rwk, 
+	@{HOME}/.msgcollector/ r,
+	@{HOME}/.msgcollector/* rwk,
 
 	/lib/i386-linux-gnu/** mr,
 	/lib/security/* mr,
@@ -129,8 +129,8 @@
 	/run/whonixcheck/* mrwcx,
 	/run/utmp rk,
 	/run/msgcollector r,
-	/run/msgcollector/user/ r,
-	/run/msgcollector/user/* rwk,
+	/run/msgcollector/*/ rwk,
+	/run/msgcollector/*/* rwk,
 	/run/sdwdate r,
 	/run/sdwdate/ rw,
 	/run/sdwdate/* rw,
