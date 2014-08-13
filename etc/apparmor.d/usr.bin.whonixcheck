@@ -104,6 +104,7 @@
 	/etc/gai.conf r,
 	/etc/services r,
 	/etc/apparmor.d/ r,
+	/etc/uwt.d/ r,
 	/etc/uwt.d/** r,
 
 	@{HOME}/ r,
