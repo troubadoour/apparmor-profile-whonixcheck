@@ -1,4 +1,4 @@
-# Last modified: Mon Mar 24 22:07:48 UTC 2014
+# Last modified: Mon Sep  1 07:46:03 UTC 2014
 #include <tunables/global>
 
 /usr/bin/whonixcheck {
@@ -201,6 +201,9 @@
 	/usr/lib/curl-scripts/curl_exit_codes rix,
 	/usr/lib/anon-shared-helper-scripts/* rix,
 	/usr/lib/apt-get-update rix,
+	
+	# operation="unlink" requested_mask="d" denied_mask="d" 
+	/usr/lib/python2.7/* rl,
 
 	/usr/local/lib/python2.7/dist-packages/ r,
 
