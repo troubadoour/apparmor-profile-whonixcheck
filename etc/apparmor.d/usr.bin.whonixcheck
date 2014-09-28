@@ -50,6 +50,8 @@
 	/bin/hostname rix,
 	/bin/tar rix,
 	/bin/cp rix,
+	/usr/bin/tor rix,
+	/usr/sbin/tor rix,
 
 	/sbin/start-stop-daemon rix,
 
@@ -228,4 +230,7 @@
 	/var/log/timesanitycheck.log rw,
 
 	/var/lib/anon-dist/build_version r,
+
+	/run/tor/tor.pid r,
+	/run/tor/control.authcookie r,
 }
