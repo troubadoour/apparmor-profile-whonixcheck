@@ -128,7 +128,7 @@
 	@{PROC}/tty/drivers r,
 	@{PROC}/[0-9]*/task/ r,
 	@{PROC}/sys/kernel/random/uuid r,
-	@{PROC}/proc/sys/net/ipv4/ip_forward,
+	@{PROC}/sys/net/ipv4/ip_forward r,
 
 	/run/whonixcheck/* mrwcx,
 	/run/utmp rk,
