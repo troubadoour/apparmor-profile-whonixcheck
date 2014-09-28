@@ -128,6 +128,7 @@
 	@{PROC}/tty/drivers r,
 	@{PROC}/[0-9]*/task/ r,
 	@{PROC}/sys/kernel/random/uuid r,
+	@{PROC}/proc/sys/net/ipv4/ip_forward,
 
 	/run/whonixcheck/* mrwcx,
 	/run/utmp rk,
@@ -201,8 +202,8 @@
 	/usr/lib/curl-scripts/curl_exit_codes rix,
 	/usr/lib/anon-shared-helper-scripts/* rix,
 	/usr/lib/apt-get-update rix,
-	
-	# operation="unlink" requested_mask="d" denied_mask="d" 
+
+	# operation="unlink" requested_mask="d" denied_mask="d"
 	/usr/lib/python2.7/* rl,
 
 	/usr/local/lib/python2.7/dist-packages/ r,
