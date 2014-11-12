@@ -134,7 +134,7 @@
 
 	/run/whonixcheck/* mrwcx,
 	/run/utmp rk,
-	/run/msgcollector rwk,
+	/run/msgcollector/ rwk,
 	/run/msgcollector/** rwk,
 	/run/sdwdate r,
 	/run/sdwdate/ rw,
