@@ -114,8 +114,8 @@
 	@{HOME}/tor-browser_en-US/Docs/sources/versions r,
 	@{HOME}/.whonix/ r,
 	@{HOME}/.whonix/* rwcux,
-	@{HOME}/.msgcollector/ r,
-	@{HOME}/.msgcollector/* rwk,
+	@{HOME}/.msgcollector rwk,
+	@{HOME}/.msgcollector/** rwk,
 
 	/lib/i386-linux-gnu/** mr,
 	/lib/security/* mr,
@@ -134,9 +134,8 @@
 
 	/run/whonixcheck/* mrwcx,
 	/run/utmp rk,
-	/run/msgcollector r,
-	/run/msgcollector/*/ rwk,
-	/run/msgcollector/*/* rwk,
+	/run/msgcollector rwk,
+	/run/msgcollector/** rwk,
 	/run/sdwdate r,
 	/run/sdwdate/ rw,
 	/run/sdwdate/* rw,

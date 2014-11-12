@@ -1,3 +1,9 @@
+apparmor-profile-whonixcheck (3:1.1-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 12 Nov 2014 12:48:58 +0000
+
 apparmor-profile-whonixcheck (3:1.0-1) unstable; urgency=low
 
   * New upstream version.
