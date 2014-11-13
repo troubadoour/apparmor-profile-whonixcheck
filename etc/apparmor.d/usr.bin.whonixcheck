@@ -108,6 +108,8 @@
 	/etc/apparmor.d/ r,
 	/etc/uwt.d/ r,
 	/etc/uwt.d/** r,
+	/etc/tor/ r,
+	/etc/tor/** r,
 
 	@{HOME}/ r,
 	@{HOME}/tor-browser_en-US/Docs/version r,
