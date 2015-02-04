@@ -1,0 +1,333 @@
+commit 5c85c5312dbd5553fa56d14e0ca6f758533e3361
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:40:33 2015 +0000
+
+    updated makefile generic to version 1.3
+
+commit a5ea1ccb8bfc205a3eb0b60279580dc5629985b3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 3 23:58:39 2015 +0000
+
+    Added creation of upstream changelog to debian/rules
+
+commit 52667ea8428de68b2fb1107320c6f0f00ec4361f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jan 7 19:33:38 2015 +0000
+
+    bumped compat from 8 to 9
+
+commit 004fa58ec5cd6655b5c64bd5745d79979572d692
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 5 19:01:11 2014 +0000
+
+    updated generic makefile
+
+commit df62d410ee9f0781ac3a465481d65bdd7581e397
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Nov 13 13:16:03 2014 +0000
+
+    full read access on /etc/tor folder
+
+commit a238d2395eed9a5b49431c14e2caca631658650b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Nov 12 21:12:20 2014 +0000
+
+    bumped version number
+
+commit c3c4b35b9f79d1ff3f6b45a44335e78ec65ff052
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Nov 12 16:31:28 2014 +0000
+
+    /run/msgcollector/
+
+commit 17775849d88faabb981d1c8c0490c3b33c45f5bc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Nov 12 12:49:25 2014 +0000
+
+    msgcollector fix
+
+commit 807e8546583523f88d7e20395f91fca9b48bcd5c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 28 22:35:19 2014 +0000
+
+    makefile: refactoring, avoid using IFS
+
+commit d6f58aefbb0a56b194c0c5710a4a964afa163fba
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Oct 25 01:58:50 2014 +0000
+
+    makefile:
+    - make debdist; make undebdist
+    - cleanup
+    - refactoring
+
+commit cdffc4c50d574dab54cfb2b32a78060a85214f12
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 23 22:43:02 2014 +0000
+
+    makefile:
+    - new target "make undist", which deletes the upstream tarball
+    - $DISTDIR variable for make (un)dist, which defaults to ".." and can be used to create upstream tarballs in arbitrary locations
+    - refactoring, all function names and global variables now start with "make_" to make the script `source`ing friendly
+    - made `source`able
+
+commit 3bc6c269a843e3befeb8874dac7e5a859d87da54
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 13 12:36:52 2014 +0000
+
+    readme
+
+commit d5add18a9785248ead0a6ee99547c033730790cb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Oct 11 17:09:08 2014 +0000
+
+    added /usr/share/torbrowser-launcher/torproject.pem r,
+
+commit 95264d3a28923001cb66286254886bb07aa82027
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 28 05:51:16 2014 +0000
+
+    fixes
+
+commit 9ced0e4237dacaccf90c8d2c214a67eafe528ebb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 28 05:35:48 2014 +0000
+
+    bumped version number
+
+commit 8c40a25e71fafc289382300a1b1fc8937411040a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 28 05:31:48 2014 +0000
+
+    fix
+
+commit 258ced5f14aaaeb1afbda04e50b899dc686477ef
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 28 02:53:42 2014 +0000
+
+    bumped version number
+
+commit 94046d193cdde035bf5f87ee5f7217b3b3b8ec74
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 28 02:52:50 2014 +0000
+
+    added "@{PROC}/proc/sys/net/ipv4/ip_forward,"
+
+commit 44d3b6aa0553d5941773c37f1fcb41456823569c
+Author: troubadoour <trobador@riseup.net>
+Date:   Mon Sep 1 08:03:55 2014 +0000
+
+    requested_mask=d
+
+commit 0e1ef9517398da550ea40b765e3f804d7d4f231c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 26 01:50:17 2014 +0000
+
+    added @{PROC}/sys/kernel/random/uuid r,
+
+commit eae4213e5552685d7c0611c0710eb6fd0b42289d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 19 18:52:36 2014 +0000
+
+    makefile: added new feature "make deb-chl-bumpup" - Bump upstream version number in debian/changelog.
+
+commit f8cb50ca842316fae5c62302b9566871e9241196
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 20:54:23 2014 +0000
+
+    Updated debian/changelog.
+
+commit 77c41086d1a49d0e13b30e19d47ddf9f8138b50d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 20:47:25 2014 +0000
+
+    Fixed changelog date.
+
+commit b2381969e65ae447eef44588695d545c334eedca
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 18:03:25 2014 +0000
+
+    bump version number
+
+commit d18fc872f7ecb0104b96ffca528ee2ec41fe3734
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 14 13:35:14 2014 +0000
+
+    Implemented make deb-icup: Combination of make deb-pkg, make deb-pkg-install and make deb-pkg-cleanup.
+
+commit f8e0e840ddd6035a4129843f72b7f006330197e9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 13 21:15:14 2014 +0000
+
+    fix
+
+commit 267bf2353a49becf1089a38c730d4e9b68f37aa1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 13 21:01:30 2014 +0000
+
+    added /etc/uwt.d/** r,
+
+commit 67d044ccbbb3b320f2d2051ef9bd1d0f28611161
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 13 20:59:54 2014 +0000
+
+    added /usr/lib/uwtwrapper rix,
+
+commit d4093c8de06b31a2228fc82bfe92c93bd6d06efe
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Aug 13 20:06:22 2014 +0000
+
+    denied messages at boot. * instaead or user (--whoami)
+
+commit fd645def35f7257bdac4f168cbba6fa69bd476fc
+Merge: 380c2ab 10d0045
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 27 19:46:53 2014 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 10d0045511973521d95ba5e5e1c2135083bbc5dd
+Author: troubadoour <trobador@riseup.net>
+Date:   Sun Jul 27 19:34:08 2014 +0000
+
+    date in # Last modified
+
+commit 380c2ab631bd65a1e4b537fe4760c5ec01c17e37
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 27 12:42:25 2014 +0000
+
+    packaging
+
+commit 231750f0b3d7155b7564c9d5dc9d3ede6031c11e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 27 04:01:09 2014 +0000
+
+    packaging
+
+commit 73223f97da55df8f525f16039245ed844e43a72e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 26 15:26:35 2014 +0000
+
+    packaging
+
+commit bcafd3095b24010bc6040d4c2b4d84a247dca00a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 26 15:16:02 2014 +0000
+
+    packaging: removed build dependency on git, since the .git folder won't be included in the upstream tarball.
+
+commit 8d59d20d3320920bc5b8136f292573eed48beae0
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Jul 26 06:43:24 2014 +0000
+
+    removed write access to /usr/lib/python2.7/
+
+commit b9bbed7410247fc25e84f748201af1d91088f276
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Jul 26 06:32:00 2014 +0000
+
+    write access to /usr/lib/python2.7/hashlib.pyc only
+
+commit 893a69711572f8604749dca0144516ef486b9e97
+Author: troubadoour <trobador@riseup.net>
+Date:   Fri Jul 25 20:48:12 2014 +0000
+
+    write permission to /usr/lib/python2.7/
+
+commit d74c2175a7133adcbaf8cddd7c9f973a747f1dd1
+Author: troubadoour <trobador@riseup.net>
+Date:   Fri Jul 25 19:59:00 2014 +0000
+
+    Whonix 8.6
+
+commit 4cda7ce53c9f88a0d8c0311d04f7310e727789c9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 17:30:14 2014 +0000
+
+    packaging
+
+commit 383ba66a3e1ee22b3e0e51ead3e9fd1c4569b813
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 17:10:59 2014 +0000
+
+    packaging
+
+commit 0a44ebb4e81953819c0876f39286796ff970b012
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 15:34:15 2014 +0000
+
+    packaging
+
+commit d23659cca2ad42ae895ba74eba6765b4a75ca1f1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jul 11 17:58:33 2014 +0000
+
+    update for Whonix 9
+
+commit 31c235e85d9892034d2046ecea49872c0f89bc84
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jul 11 17:54:57 2014 +0000
+
+    update for Whonix 9
+
+commit 196d1fbccf7f391d0e648d8769d0efce707965ee
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jul 11 17:53:30 2014 +0000
+
+    added /var/lib/anon-dist/build_version
+
+commit 2ffa9f61ecec1b6eaa2c5daf2f3f14a9a5fb5a13
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 5 08:09:42 2014 +0000
+
+    Bumped debian revision number to avoid lintian warning "new-package-should-close-itp-bug" so we can use lintian --fail-on-warnings as sanity test.
+
+commit b4b18e74d80cfe89fcf7ed0704d4c50699517399
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 24 15:45:11 2014 +0000
+
+    added debian epoch; added dotglob
+
+commit 406768530f3f590e7b1156a00755ced0d454d22a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jun 12 12:29:11 2014 +0000
+
+    packaging
+
+commit 1325af696de53658d1c7ba786e090a5543dce51b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 3 23:37:13 2014 +0000
+
+    newline at the end
+
+commit 319911d151ea8de74de8bf58c3e4d5e0858732a3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 3 18:27:24 2014 +0000
+
+    readme
+
+commit 10f0d38e19aae2728fd0ff2e3be0294a903d4ad8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 31 16:31:21 2014 +0000
+
+    # On branch master
+    nothing to commit (working directory clean)
+
+commit 615640722f28c8c8ceef37856f042f8c1da85915
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 31 14:35:38 2014 +0000
+
+    # On branch master
+    nothing to commit (working directory clean)
+
+commit 5cc301574bf43acbc096700ecf9d06b492c33283
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 23 14:45:22 2014 +0000
+
+    packaging
+
+commit 181689ad572bce772ddf0a568adb902e0d0ca616
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu May 22 19:43:59 2014 +0000
+
+    First release
