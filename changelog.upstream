@@ -1,3 +1,34 @@
+commit 6c397462154f1bad5437c524009f168c9fa7ed8e
+Merge: 0f0312e 69c239c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Apr 12 22:21:59 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 0f0312ec2d2412f321121c06e3b039b55022d42d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Apr 12 22:18:32 2015 +0000
+
+    various fixes - https://phabricator.whonix.org/T258
+
+commit 69c239cb114488ea6850e4027bfd0391aa4f739e
+Author: troubadoour <trobador@riseup.net>
+Date:   Sun Apr 12 22:10:24 2015 +0000
+
+    + /usr/share/libthai/thbrk.tri r,
+
+commit b1c051ad0463b272d2645294272e075751501e1e
+Author: troubadoour <trobador@riseup.net>
+Date:   Sun Apr 12 22:08:41 2015 +0000
+
+    + /usr/lib/apt-get-wrapper rix,
+
+commit e78c14273e8e85c21860140817e6c12477c5f5f9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 17:41:34 2015 +0000
+
+    bumped changelog version
+
 commit 4849cc5fa0f5dbb08aaab24ece2e196d12792a51
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 2 18:41:07 2015 +0000
