@@ -218,6 +218,7 @@
 	/usr/share/pyshared/** r,
 	/usr/share/open-link-confirmation/share/config/kdeglobals r,
 	/usr/share/torbrowser-launcher/torproject.pem r,
+	/usr/share/libthai/thbrk.tri r,
 
 	/var/cache/apt/ r,
 	/var/cache/apt/* rw,
