@@ -205,6 +205,7 @@
 	/usr/lib/curl-scripts/curl_exit_codes rix,
 	/usr/lib/anon-shared-helper-scripts/* rix,
 	/usr/lib/apt-get-update rix,
+	/usr/lib/apt-get-wrapper rix,
 
 	# operation="unlink" requested_mask="d" denied_mask="d"
 	/usr/lib/python2.7/* rl,
