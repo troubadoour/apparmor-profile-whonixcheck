@@ -1,3 +1,15 @@
+commit 8deacd048499560e46ffaa6cb6709b95cfd4f7cf
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon May 4 20:59:56 2015 +0000
+
+    added /proc/sys/kernel/random/entropy_avail - https://phabricator.whonix.org/T294
+
+commit 18c2947ccc921ed31600ae6dfd04551ff2635823
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 30 17:56:11 2015 +0000
+
+    bumped changelog version
+
 commit a2e428c1855e575eaeb62c1fdd01251783830598
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Apr 28 13:43:08 2015 +0000
