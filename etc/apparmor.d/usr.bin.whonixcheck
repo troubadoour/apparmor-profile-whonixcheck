@@ -134,6 +134,7 @@
 	@{PROC}/[0-9]*/task/ r,
 	@{PROC}/sys/kernel/random/uuid r,
 	@{PROC}/sys/net/ipv4/ip_forward r,
+	@{PROC}/sys/kernel/random/entropy_avail r,
 
 	/run/whonixcheck/* mrwcx,
 	/run/utmp rk,
