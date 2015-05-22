@@ -17,6 +17,7 @@
 	capability dac_override,
 	capability kill,
 	capability sys_rawio,
+	capability audit_write,
 
 	/ r,
 
@@ -111,12 +112,14 @@
 	/etc/uwt.d/** r,
 	/etc/tor/ r,
 	/etc/tor/** r,
+	/etc/login.defs r,
+	/etc/ssl/openssl.cnf r,
 
 	@{HOME}/ r,
 	@{HOME}/tor-browser_en-US/Docs/version r,
 	@{HOME}/tor-browser_en-US/Docs/sources/versions r,
 	@{HOME}/.whonix/ r,
-	@{HOME}/.whonix/* rwcux,
+	@{HOME}/.whonix/* rwk,
 	@{HOME}/.msgcollector rwk,
 	@{HOME}/.msgcollector/** rwk,
 
@@ -134,6 +137,7 @@
 	@{PROC}/[0-9]*/task/ r,
 	@{PROC}/sys/kernel/random/uuid r,
 	@{PROC}/sys/net/ipv4/ip_forward r,
+	@{PROC}/[0-9]*/environ r,
 	@{PROC}/sys/kernel/random/entropy_avail r,
 
 	/run/whonixcheck/* mrwcx,
@@ -149,6 +153,7 @@
 	/sys/bus/pci/slots/ r,
 	/sys/devices/pci0000:00/** r,
 	/sys/devices/system/clocksource/clocksource0/current_clocksource r,
+	/sys/devices/virtual/dmi/id/sys_vendor r,
 
 	/tmp/** lrwcix,
 
@@ -192,6 +197,7 @@
 	/usr/bin/whoami rix,
 	/usr/bin/tr rix,
 	/usr/bin/pstree rix,
+	/usr/bin/systemd* rix,
 
 	/usr/sbin/service rix,
 	/usr/sbin/virt-what rix,
