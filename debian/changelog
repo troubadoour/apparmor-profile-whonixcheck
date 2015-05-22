@@ -1,3 +1,9 @@
+apparmor-profile-whonixcheck (3:2.0-1) unstable; urgency=low
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 22 May 2015 21:39:50 +0000
+
 apparmor-profile-whonixcheck (3:1.9-1) unstable; urgency=low
 
   * New upstream version (local package).
