@@ -1,3 +1,9 @@
+commit b5275dd66aa0b58334d1400bafd40228931d6513
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 22 21:39:55 2015 +0000
+
+    bumped changelog version
+
 commit b35a7ebfc01333d06a1b142382030710a5ac0f5f
 Merge: 431963d 185dc9c
 Author: Patrick Schleizer <adrelanos@riseup.net>
