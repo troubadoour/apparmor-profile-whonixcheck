@@ -129,6 +129,8 @@
 
 	@{PROC} r,
 	@{PROC}/cmdline r,
+	## Required for pgrep.
+	@{PROC}/*/cmdline r,
 	@{PROC}/[0-9]*/stat r,
 	@{PROC}/[0-9]*/status r,
 	@{PROC}/[0-9]*/fd/ r,
