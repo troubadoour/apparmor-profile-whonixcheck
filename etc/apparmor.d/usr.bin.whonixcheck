@@ -201,6 +201,7 @@
 	/usr/bin/systemd* rix,
 	/usr/bin/timedatectl rix,
 	/usr/bin/diff rix,
+	/usr/bin/pgrep rix,
 
 	## Required by Qubes.
 	/usr/bin/gdbus rix,
