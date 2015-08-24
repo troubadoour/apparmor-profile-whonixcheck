@@ -1,3 +1,32 @@
+commit 0a43bdd6967ffd4d594197c6681596aa4751e9f5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Aug 21 01:11:53 2015 +0000
+
+    	@{PROC}/*/cmdline r,
+    	(Required for pgrep.)
+
+commit 45b3236ee5431bc855a36b861ed997dff86cb254
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Aug 21 00:38:48 2015 +0000
+
+    /usr/bin/pgrep rix,
+
+commit 059dbab3dda11a28297cc3c1fea860494af48be6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 20 22:40:48 2015 +0000
+
+    - No longer required to white list .anondist/.anondist-orig extensions, because /etc/apparmor.d/tunables/home.d/anondist covers that now.
+    - Additions for Whonix 12.
+    - Additions for Qubes-Whonix.
+    - Removed duplicates.
+    - Refactoring.
+
+commit b3191c5f07fe8c00cb88dd57f41b35bdf8981f6d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jun 3 14:59:32 2015 +0000
+
+    bumped changelog version
+
 commit b5275dd66aa0b58334d1400bafd40228931d6513
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri May 22 21:39:55 2015 +0000
