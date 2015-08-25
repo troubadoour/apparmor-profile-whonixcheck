@@ -185,7 +185,6 @@
 	/usr/bin/uwt rix,
 	/usr/lib/uwtwrapper rix,
 	/usr/bin/curl rix,
-	/usr/bin/curl.anondist-orig rix,
 	/usr/bin/torsocks rix,
 	/usr/bin/python2.7 rix,
 	/usr/bin/dpkg rix,
@@ -205,8 +204,6 @@
 	/usr/bin/timedatectl rix,
 	/usr/bin/diff rix,
 	/usr/bin/pgrep rix,
-	/usr/bin/apt-get.anondist rix,
-	/usr/bin/apt-get.anondist-orig rix,
 
 	## Required by Qubes.
 	/usr/bin/gdbus rix,
