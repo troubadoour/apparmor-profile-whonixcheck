@@ -163,7 +163,7 @@
 	/tmp/** lrwcix,
 
 	/usr/bin/basename rix,
-	/usr/bin/sudo ix,
+	/usr/bin/sudo rix,
 	/usr/bin/tee rix,
 	/usr/bin/test rix,
 	/usr/bin/tty rix,
