@@ -92,7 +92,6 @@
 	/etc/sdwdate.d/* r,
 	/etc/default/sdwdate r,
 	/etc/init.d/sdwdate rix,
-	/etc/init.d/virtualbox-guest-utils rwix,
 	/etc/apt/apt.conf.d/ r,
 	/etc/apt/apt.conf.d/* r,
 	/etc/python2.7/sitecustomize.py r,
