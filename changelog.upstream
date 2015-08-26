@@ -1,3 +1,54 @@
+commit f955a1bee7a77b4e022961b8b9b65e8f96e60ded
+Merge: 52c2e7a f01f47f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 26 20:29:30 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit f01f47f53e2d57c19e92d135fbe2d6b25467426b
+Merge: 87f744a 52c2e7a
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Aug 26 18:30:48 2015 +0000
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 87f744aa7c3bd7bb5fd2a31da720e75d88a20162
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Aug 26 18:28:00 2015 +0000
+
+    - /etc/init.d/virtualbox-guest-utils
+
+commit 52c2e7ae74c4c2783a3c60dd4c3ee38daeacfd0f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 25 21:54:38 2015 +0000
+
+    Qubes specific fixes
+
+commit b900673eedec89522690fe5da6d4899efc34d20d
+Merge: 21dd1f1 732c697
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 25 21:40:50 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 732c697154d0fa4ac814fca76b7a74c061a72576
+Author: troubadoour <trobador@riseup.net>
+Date:   Tue Aug 25 21:02:06 2015 +0000
+
+    remove anondist files
+
+commit b1ae7d68a5360cb03ee71c40ea3030afa2a448cb
+Author: troubadoour <trobador@riseup.net>
+Date:   Tue Aug 25 18:30:21 2015 +0000
+
+    additions for Whonix 11
+
+commit 21dd1f10db88a726f055ffbbdd301c6a184662c3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 25 14:07:55 2015 +0000
+
+    bumped changelog version
+
 commit 245139fe2a10665a4735ac858f07d259d7629e3f
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Aug 24 17:47:18 2015 +0000
