@@ -256,4 +256,8 @@
 	/run/tor/tor.pid r,
 	/run/tor/control.authcookie r,
 	/run/control-port-filter-python/pid r,
+
+	## Qubes specific
+	/run/qubes-whonix/ r,
+	/run/qubes-whonix/qubes.SetDateTime r,
 }
