@@ -1,3 +1,15 @@
+commit 5cb3331c63c2e4361189313fc986e84c4c33f3b6
+Author: troubadoour <trobador@riseup.net>
+Date:   Sun Oct 4 08:12:55 2015 +0000
+
+    + /etc/ssl/certs/ca-certificates.crt r,
+
+commit 9824200ae2a3618bcd2d44c7c3f3acaf0a0dcfc7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 26 23:31:56 2015 +0000
+
+    bumped changelog version
+
 commit f955a1bee7a77b4e022961b8b9b65e8f96e60ded
 Merge: 52c2e7a f01f47f
 Author: Patrick Schleizer <adrelanos@riseup.net>
