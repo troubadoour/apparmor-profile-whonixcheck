@@ -113,6 +113,7 @@
 	/etc/tor/** r,
 	/etc/login.defs r,
 	/etc/ssl/openssl.cnf r,
+	/etc/ssl/certs/ca-certificates.crt r,
 
 	@{HOME}/ r,
 	@{HOME}/tor-browser_en-US/Docs/version r,
