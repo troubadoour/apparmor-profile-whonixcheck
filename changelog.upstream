@@ -1,3 +1,16 @@
+commit cbc6f0e98732730497272084e640fdeaca7372d8
+Merge: 9824200 04cfb4c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Oct 4 12:16:02 2015 +0200
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 04cfb4c1119aab915e847a3cf076e29a9d2a49b8
+Author: troubadoour <trobador@riseup.net>
+Date:   Sun Oct 4 08:20:36 2015 +0000
+
+    changelog.upstream
+
 commit 5cb3331c63c2e4361189313fc986e84c4c33f3b6
 Author: troubadoour <trobador@riseup.net>
 Date:   Sun Oct 4 08:12:55 2015 +0000
