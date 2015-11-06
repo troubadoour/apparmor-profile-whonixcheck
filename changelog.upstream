@@ -1,3 +1,15 @@
+commit 930d029be40747470e68031a14465e83873915e3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Nov 6 13:47:29 2015 +0000
+
+    /usr/bin/bsdtar rix,
+
+commit acae612cadfaf8d6b582418918361ce307546176
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 22 23:12:36 2015 +0000
+
+    bumped changelog version
+
 commit cbc6f0e98732730497272084e640fdeaca7372d8
 Merge: 9824200 04cfb4c
 Author: Patrick Schleizer <adrelanos@riseup.net>
