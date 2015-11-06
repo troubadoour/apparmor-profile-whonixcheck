@@ -204,6 +204,7 @@
 	/usr/bin/timedatectl rix,
 	/usr/bin/diff rix,
 	/usr/bin/pgrep rix,
+	/usr/bin/bsdtar rix,
 
 	## Required by Qubes.
 	/usr/bin/gdbus rix,
